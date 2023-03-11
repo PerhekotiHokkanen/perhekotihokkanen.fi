@@ -8,10 +8,10 @@ Perhekoti Hokkanen Oy
 Linnuntie 26  
 96440 Rovaniemi
 
-p. 044-265 7720
+P. 044- 216 23 12
 
-riitta-maija.hokkanen@perhekotihokkanen.fi
+mari.valui@perhekotihokkanen.fi
 
-Toimitusjohtaja Riitta-Maija Hokkanen  
-Hallituksen puheenjohtaja Reijo Hokkanen
+Toimitusjohtaja Mari Valui
+Hallituksen puheenjohtaja Andrei Valui
 
