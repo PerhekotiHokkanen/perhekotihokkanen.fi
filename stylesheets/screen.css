@@ -148,6 +148,8 @@ body {
   margin-bottom: 35px;
   background: #fcfcfa;
   color: #402d0b;
+  width: auto;
+  max-width: 950px;
 }
 /* line 89, ../sass/screen.scss */
 #Container > header {
@@ -229,7 +231,8 @@ body {
 #InnerContainer .content {
   float: left;
   margin-right: 0;
-  width: 950px;
+  width: auto;
+  max-width: 950px;
 }
 /* line 147, ../../../.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/compass-blueprint-1.0.0/framework/blueprint/stylesheets/blueprint/_grid.scss */
 * html #InnerContainer .content {

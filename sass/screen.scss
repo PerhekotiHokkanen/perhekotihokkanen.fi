@@ -86,7 +86,7 @@ body {
     background: #fcfcfa;
     color: #402d0b;
     width: auto;
-    max-width: 950px
+    max-width: 950px;
 
     &>header {
         position: relative;
@@ -116,6 +116,7 @@ body {
             margin-bottom: -93px;
             border-bottom: 28px solid #fcb32f;
             z-index: 1;
+            width: 100%;
         }
     }
 
@@ -161,6 +162,8 @@ body {
 
     .content {
         @include column($blueprint-grid-columns, true);
+        width: : auto;
+        max-width: 950px;
     }
 
     div[role="main"] {
