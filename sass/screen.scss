@@ -123,10 +123,11 @@ body {
     &>nav {
         @include rotate(-8.8deg);
         text-align: center;
-        position: relative;
-        top: -335px;
+        position: absolute;
+        top: 90px;
         float: right;
         z-index: 2;
+        right: 20px;
 
         li {
             display: inline-block;

@@ -193,10 +193,11 @@ body {
   -webkit-transform: rotate(-8.8deg);
   transform: rotate(-8.8deg);
   text-align: center;
-  position: relative;
-  top: -335px;
+  position: absolute;
+  top: 90px;
   float: right;
   z-index: 2;
+  right: 20px;
 }
 /* line 129, ../sass/screen.scss */
 #Container > nav li {
