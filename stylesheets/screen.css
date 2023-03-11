@@ -184,6 +184,7 @@ body {
   margin-bottom: -93px;
   border-bottom: 28px solid #fcb32f;
   z-index: 1;
+  width: 100%;
 }
 /* line 121, ../sass/screen.scss */
 #Container > nav {
