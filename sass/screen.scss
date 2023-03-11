@@ -165,6 +165,7 @@ body {
         @include column($blueprint-grid-columns, true);
         width: : auto;
         max-width: 950px;
+        padding-top: 48px;
     }
 
     div[role="main"] {
