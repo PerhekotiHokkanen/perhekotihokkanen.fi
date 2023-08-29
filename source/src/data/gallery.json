@@ -1,182 +1,182 @@
 [
     {
-        "image" : "/img/gallery/house/gallery-01.jpg",
-        "thumb" : "/img/gallery/house/thumb/gallery-01.jpg",
+        "image" : "img/gallery/house/gallery-01.jpg",
+        "thumb" : "img/gallery/house/thumb/gallery-01.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/house/gallery-02.jpg",
-        "thumb" : "/img/gallery/house/thumb/gallery-02.jpg",
+        "image" : "img/gallery/house/gallery-02.jpg",
+        "thumb" : "img/gallery/house/thumb/gallery-02.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/house/gallery-03.jpg",
-        "thumb" : "/img/gallery/house/thumb/gallery-03.jpg",
+        "image" : "img/gallery/house/gallery-03.jpg",
+        "thumb" : "img/gallery/house/thumb/gallery-03.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/house/gallery-04.jpg",
-        "thumb" : "/img/gallery/house/thumb/gallery-04.jpg",
+        "image" : "img/gallery/house/gallery-04.jpg",
+        "thumb" : "img/gallery/house/thumb/gallery-04.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/house/gallery-05.jpg",
-        "thumb" : "/img/gallery/house/thumb/gallery-05.jpg",
+        "image" : "img/gallery/house/gallery-05.jpg",
+        "thumb" : "img/gallery/house/thumb/gallery-05.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/house/gallery-06.jpg",
-        "thumb" : "/img/gallery/house/thumb/gallery-06.jpg",
+        "image" : "img/gallery/house/gallery-06.jpg",
+        "thumb" : "img/gallery/house/thumb/gallery-06.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/house/gallery-07.jpg",
-        "thumb" : "/img/gallery/house/thumb/gallery-07.jpg",
+        "image" : "img/gallery/house/gallery-07.jpg",
+        "thumb" : "img/gallery/house/thumb/gallery-07.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/house/gallery-08.jpg",
-        "thumb" : "/img/gallery/house/thumb/gallery-08.jpg",
+        "image" : "img/gallery/house/gallery-08.jpg",
+        "thumb" : "img/gallery/house/thumb/gallery-08.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/house/gallery-09.jpg",
-        "thumb" : "/img/gallery/house/thumb/gallery-09.jpg",
+        "image" : "img/gallery/house/gallery-09.jpg",
+        "thumb" : "img/gallery/house/thumb/gallery-09.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/house/gallery-10.jpg",
-        "thumb" : "/img/gallery/house/thumb/gallery-10.jpg",
+        "image" : "img/gallery/house/gallery-10.jpg",
+        "thumb" : "img/gallery/house/thumb/gallery-10.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/house/gallery-11.jpg",
-        "thumb" : "/img/gallery/house/thumb/gallery-11.jpg",
+        "image" : "img/gallery/house/gallery-11.jpg",
+        "thumb" : "img/gallery/house/thumb/gallery-11.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/interior/gallery-01.jpg",
-        "thumb" : "/img/gallery/interior/thumb/gallery-01.jpg",
+        "image" : "img/gallery/interior/gallery-01.jpg",
+        "thumb" : "img/gallery/interior/thumb/gallery-01.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/interior/gallery-02.jpg",
-        "thumb" : "/img/gallery/interior/thumb/gallery-02.jpg",
+        "image" : "img/gallery/interior/gallery-02.jpg",
+        "thumb" : "img/gallery/interior/thumb/gallery-02.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/interior/gallery-03.jpg",
-        "thumb" : "/img/gallery/interior/thumb/gallery-03.jpg",
+        "image" : "img/gallery/interior/gallery-03.jpg",
+        "thumb" : "img/gallery/interior/thumb/gallery-03.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/interior/gallery-04.jpg",
-        "thumb" : "/img/gallery/interior/thumb/gallery-04.jpg",
+        "image" : "img/gallery/interior/gallery-04.jpg",
+        "thumb" : "img/gallery/interior/thumb/gallery-04.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/interior/gallery-05.jpg",
-        "thumb" : "/img/gallery/interior/thumb/gallery-05.jpg",
+        "image" : "img/gallery/interior/gallery-05.jpg",
+        "thumb" : "img/gallery/interior/thumb/gallery-05.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/interior/gallery-06.jpg",
-        "thumb" : "/img/gallery/interior/thumb/gallery-06.jpg",
+        "image" : "img/gallery/interior/gallery-06.jpg",
+        "thumb" : "img/gallery/interior/thumb/gallery-06.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/interior/gallery-07.jpg",
-        "thumb" : "/img/gallery/interior/thumb/gallery-07.jpg",
+        "image" : "img/gallery/interior/gallery-07.jpg",
+        "thumb" : "img/gallery/interior/thumb/gallery-07.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/interior/gallery-08.jpg",
-        "thumb" : "/img/gallery/interior/thumb/gallery-08.jpg",
+        "image" : "img/gallery/interior/gallery-08.jpg",
+        "thumb" : "img/gallery/interior/thumb/gallery-08.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/interior/gallery-10.jpg",
-        "thumb" : "/img/gallery/interior/thumb/gallery-10.jpg",
+        "image" : "img/gallery/interior/gallery-10.jpg",
+        "thumb" : "img/gallery/interior/thumb/gallery-10.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/interior/gallery-11.jpg",
-        "thumb" : "/img/gallery/interior/thumb/gallery-11.jpg",
+        "image" : "img/gallery/interior/gallery-11.jpg",
+        "thumb" : "img/gallery/interior/thumb/gallery-11.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/interior/gallery-12.jpg",
-        "thumb" : "/img/gallery/interior/thumb/gallery-12.jpg",
+        "image" : "img/gallery/interior/gallery-12.jpg",
+        "thumb" : "img/gallery/interior/thumb/gallery-12.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/interior/gallery-13.jpg",
-        "thumb" : "/img/gallery/interior/thumb/gallery-13.jpg",
+        "image" : "img/gallery/interior/gallery-13.jpg",
+        "thumb" : "img/gallery/interior/thumb/gallery-13.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/interior/gallery-14.jpg",
-        "thumb" : "/img/gallery/interior/thumb/gallery-14.jpg",
+        "image" : "img/gallery/interior/gallery-14.jpg",
+        "thumb" : "img/gallery/interior/thumb/gallery-14.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/interior/gallery-15.jpg",
-        "thumb" : "/img/gallery/interior/thumb/gallery-15.jpg",
+        "image" : "img/gallery/interior/gallery-15.jpg",
+        "thumb" : "img/gallery/interior/thumb/gallery-15.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/interior/gallery-16.jpg",
-        "thumb" : "/img/gallery/interior/thumb/gallery-16.jpg",
+        "image" : "img/gallery/interior/gallery-16.jpg",
+        "thumb" : "img/gallery/interior/thumb/gallery-16.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/interior/gallery-17.jpg",
-        "thumb" : "/img/gallery/interior/thumb/gallery-17.jpg",
+        "image" : "img/gallery/interior/gallery-17.jpg",
+        "thumb" : "img/gallery/interior/thumb/gallery-17.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/interior/gallery-18.jpg",
-        "thumb" : "/img/gallery/interior/thumb/gallery-18.jpg",
+        "image" : "img/gallery/interior/gallery-18.jpg",
+        "thumb" : "img/gallery/interior/thumb/gallery-18.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/interior/gallery-19.jpg",
-        "thumb" : "/img/gallery/interior/thumb/gallery-19.jpg",
+        "image" : "img/gallery/interior/gallery-19.jpg",
+        "thumb" : "img/gallery/interior/thumb/gallery-19.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/interior/gallery-20.jpg",
-        "thumb" : "/img/gallery/interior/thumb/gallery-20.jpg",
+        "image" : "img/gallery/interior/gallery-20.jpg",
+        "thumb" : "img/gallery/interior/thumb/gallery-20.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/interior/gallery-21.jpg",
-        "thumb" : "/img/gallery/interior/thumb/gallery-21.jpg",
+        "image" : "img/gallery/interior/gallery-21.jpg",
+        "thumb" : "img/gallery/interior/thumb/gallery-21.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/interior/gallery-22.jpg",
-        "thumb" : "/img/gallery/interior/thumb/gallery-22.jpg",
+        "image" : "img/gallery/interior/gallery-22.jpg",
+        "thumb" : "img/gallery/interior/thumb/gallery-22.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/interior/gallery-24.jpg",
-        "thumb" : "/img/gallery/interior/thumb/gallery-24.jpg",
+        "image" : "img/gallery/interior/gallery-24.jpg",
+        "thumb" : "img/gallery/interior/thumb/gallery-24.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/interior/gallery-25.jpg",
-        "thumb" : "/img/gallery/interior/thumb/gallery-25.jpg",
+        "image" : "img/gallery/interior/gallery-25.jpg",
+        "thumb" : "img/gallery/interior/thumb/gallery-25.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/interior/gallery-26.jpg",
-        "thumb" : "/img/gallery/interior/thumb/gallery-26.jpg",
+        "image" : "img/gallery/interior/gallery-26.jpg",
+        "thumb" : "img/gallery/interior/thumb/gallery-26.jpg",
         "title" : ""
     },
     {
-        "image" : "/img/gallery/interior/gallery-27.jpg",
-        "thumb" : "/img/gallery/interior/thumb/gallery-27.jpg",
+        "image" : "img/gallery/interior/gallery-27.jpg",
+        "thumb" : "img/gallery/interior/thumb/gallery-27.jpg",
         "title" : ""
     }
 ]
