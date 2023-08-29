@@ -1,0 +1,30 @@
+---
+import coworkers from "./../data/team.json"
+import TeamItemMain from "./TeamItemMain.astro";
+---
+
+<div class="row">
+    <div class="text-center mb-80 mb-sm-50">
+        <h2 class="section-title">Who we are</h2>
+        <p class="section-title-descr">
+            Learn more about our company.
+        </p>
+    </div>
+</div>
+
+<div class="row justify-content-md-center mb-120">
+    {
+        coworkers.map((member, key) => key ===0 || key === 1 ?
+            <TeamItemMain
+                name={member.name}
+                photo={member.photo}
+                position={member.position}
+                hello={member.hello}
+                intro={member.intro}
+                delay={member.delay}
+            /> : '')
+    }
+</div>
+
+
+

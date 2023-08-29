@@ -1,0 +1,50 @@
+---
+interface Props {
+    bg: string;
+    href: string;
+    header: string;
+    header2: string;
+}
+
+const { bg, href, header, header2 } = Astro.props;
+
+import settings from "./../data/settings.json"
+---
+<!-- Home Section -->
+<section class="home-section bg-dark bg-dark-alfa-30 light-content" data-background="img/intro.jpg" id="home">
+    <div class="container min-height-100vh d-flex align-items-center pt-100 pb-100">
+
+        <div class="bg-video-wrapper">
+            <video class="bg-video" preload="auto" autoplay loop muted playsinline data-object-fit="cover">
+                <source src="video/intro.webm" type="video/webm">
+                <source src="video/intro.ogg" type="video/ogg">
+                <source src="video/intro.mp4" type="video/mp4">
+            </video>
+            <div class="bg-video-overlay bg-dark-alfa-70"></div>
+        </div>
+
+        <!-- Hero Content -->
+        <div class="home-content">
+            <div class="wow fadeInUpShort" data-wow-delay=".2s">
+                <h1 class="hs-line-12 opacity-085 mb-10">Ei kodin vertaista</h1>
+            </div>
+            <div class="wow fadeInUpShort" data-wow-delay=".3s">
+                <p class="hs-line-6 opacity-07 mb-30">
+                    Katso koko video
+                </p>
+            </div>
+            <div class="wow fadeInUpShort" data-wow-delay=".1s">
+                <a href={settings.video} class="big-icon-link lightbox-gallery-1 mfp-iframe"><span class="big-icon"><i class="fa fa-play"></i></span></a>
+            </div>
+        </div>
+        <!-- End Hero Content -->
+
+        <!-- Scroll Down -->
+        <div class="local-scroll scroll-down-wrap wow fadeInUpShort" data-wow-offset="0">
+            <a href="#about" class="scroll-down"><i class="scroll-down-icon"></i><span class="sr-only">Scroll to the next section</span></a>
+        </div>
+        <!-- End Scroll Down -->
+
+    </div>
+</section>
+<!-- End Home Section -->

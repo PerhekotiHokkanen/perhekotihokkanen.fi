@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Mari Valui",
+        "photo": "img/team/team-1.jpg",
+        "position" : "Toimitusjohtaja",
+        "hello": "Hello & Welcome!",
+        "intro": "Some greeting text",
+        "delay": ".1s"
+    },
+    {
+        "name": "Andrei Valui",
+        "photo": "img/team/team-2.jpg",
+        "position" : "Hallituksen puheenjohtaja",
+        "hello": "Hello everybody!",
+        "intro": "Some greeting text",
+        "delay": ".2s"
+    },
+    {
+        "name": "Coworker-1",
+        "photo": "img/team/team-3.jpg",
+        "position" : "Worker",
+        "hello": "Nice to meet!",
+        "intro": "Some greeting text",
+        "delay": ".3s"
+    },
+    {
+        "name": "Emina",
+        "photo": "img/team/team-4.jpg",
+        "position" : "Worker",
+        "hello": "Hey!",
+        "intro": "Some greeting text",
+        "delay": ".4s"
+    }
+]

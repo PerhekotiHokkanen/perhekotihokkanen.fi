@@ -1,0 +1,32 @@
+[
+    {
+        "svg": "bricks.svg",
+        "title": "Kristillisyys – arvotietoisuus",
+        "intro": "Pohdinnalle ja keskustelulle luodaan tilaa - kriittisyydellekin",
+        "description": "Toimintamme perustuu kristillisiin arvoihin.<br>Arvokasvatuksen merkitys korostuu maailmassa, jossa monimediainen tiedonvälitys, globaalit tietoverkot, sosiaalinen media ja vertaissuhteet muokkaavat lasten ja nuorten arvomaailmaa. Arkiset keskustelut lasten kanssa ohjaavat heitä tunnistamaan ja nimeämään kohtaamiaan arvoja ja arvostuksia sekä pohtimaan niitä myös kriittisesti. Lapsia tuetaan rakentamaan omaa arvoperustaansa. Heitä kasvatetaan tunnistamaan yhteiskunnassa, yhteisöissä ja omassa elämässä ilmeneviä arvoja ja arvovalintoja. Perhekodin erilaisissa kohtaamisissa voidaan yhdessä välillä pohtia tekojen ja tekemättä jättämisten taustalla vaikuttavia arvoja. Perhekodin edustamien arvojen ollessa selkeitä, sanoitettuja ja tiedostettuja, niiden toteutumista voidaan myös tarkastella ja arvioida. Pohdinnalle ja keskustelulle luodaan tilaa - kriittisyydellekin."
+    },
+    {
+        "svg": "dream.svg",
+        "title": "Yksilön ainutlaatuisuus – vahvuusperustaisuus",
+        "intro": "Jokainen ihminen on äärettömän arvokas ja häntä tulee kohdella sen mukaisesti",
+        "description": "Jokainen ihminen on äärettömän arvokas ja häntä tulee kohdella sen mukaisesti. Perhekodissa opetellaan tästä syystä rakastamaan ja arvostamaan toisia, itseä unohtamatta, moninaisista eroista huolimatta. Jokaisella on lahjakkuuksia ja vahvuuksia, joita toivomme lasten tunnistavan ja hyödyntävän niin omaksi kuin muiden iloksi. Tällä tavoin pyrimme vahvistamaan terveen itsetunnon kasvua."
+    },
+    {
+        "svg": "community.svg",
+        "title": "Yhteisöllisyys – ihmissuhdekeskeisyys",
+        "intro": "Nämä ovat jokaisen ihmisen perustarpeita. Haluamme perheyhteisönä pitää toisistamme huolta, rohkaista ja nostaa toinen toisiamme ylöspäin",
+        "description": "Jokainen haluaa kokea tulevansa hyväksytyksi ja kokea kuuluvansa johonkin. Nämä ovat jokaisen ihmisen perustarpeita. Haluamme perheyhteisönä pitää toisistamme huolta, rohkaista ja nostaa toinen toisiamme ylöspäin. Yhteisössä elämisen taidot ovat tärkeitä perustaitoja elämässä menestymisen edellytyksinä: toisten huomioon ottaminen, vuorovaikutus, auttaminen ja palveleminen, vuoron odottaminen, anteeksi pyytäminen ja sopiminen sekä ilon ja surun jakaminen. Kasvamme sosiaalisessa vuorovaikutuksessa.<br>Arvostamme perhekodin lasten elämässä toimivien aikuisten antamaa panosta sekä asiantuntijoita, ammattilaisia, ystäviä, harrasteryhmiä ja lasten omien perheiden merkitystä heidän elämässään. Vuorovaikutuksella eri tahojen kesken sijoitamme yhteistyöhön ja näin perhekodin lasten kasvuun ja hyvinvointiin."
+    },
+    {
+        "svg": "friends.svg",
+        "title": "Rehellisyys ja avoimuus",
+        "intro": "Rehellisyys tarkoittaa niin omien vahvuuksien ja ansioiden kuin myös puutteiden ja laiminlyöntien kohtaamista ja käsittelemistä.",
+        "description": "Rehellisyyttä opetellaan suhteessa itseen ja yhteisöön. Rehellisyys tarkoittaa niin omien vahvuuksien ja ansioiden kuin myös puutteiden ja laiminlyöntien kohtaamista ja käsittelemistä. Rohkaisemme jokaista, niin lapsia kuin aikuisia, olemaan aidosti oma itsensä. Sanojen ja tekojen välillä ei voi olla ristiriitaa. Ohjaamme lapsia puhumaan totta ja toimimaan vastuullisesti noudattaen yhteisesti sovittuja sääntöjä. Rehellinen ja avoin kommunikaatio on edellytys, jotta voi muodostua vahvoja ihmissuhteita, terveitä perheitä, yhteisöjä ja tehokasta yhteistyötä. Työ perustuu luottamukseen."
+    },
+    {
+        "svg": "joy.svg",
+        "title": "Kiitollisuus ja ilo",
+        "intro": "Kiitollisuus on positiivista asennetta siitä, keitä me olemme ja mitä meillä jo on",
+        "description": "Kiitollisuus on positiivista asennetta siitä, keitä me olemme ja mitä meillä jo on. Elämä itsessään on lahja ja aihe kiitokseen. Opettelemme viljelemään kiitollisuutta arkipäivän tilanteissa, jopa negatiivisista asioista voi opetella viestimään asiallisesti, ystävällisesti ja sävyisästi. Iloitsemme jokaisesta lapsesta yksin ja yhdessä ja niistä askelista, joita saamme ottaa eteenpäin. Vaikka elämä täyttyy eri tunteiden kirjosta, ja hyvin usein siihen liittyy kipua ja sen käsittelyä, toivomme perhekodin täyttyvän naurusta, huumorista, hassuttelusta ja iloisesta puheen sorinasta."
+    }
+]

@@ -1,0 +1,63 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Contacts from "../components/Contacts.astro";
+import SVG from "./../data/svg.json"
+import coreValues from "./../data/values.json"
+---
+
+<Layout title="Perhekoti - Yhteystiedot" description="Yhteystiedot">
+    <main id="main">
+        <Header title="Yhteystiedot" subtitle="Hauska tavata!" />
+
+        <!-- Contact Section -->
+        <section class="page-section">
+            <div class="container relative">
+                <div class="row mb-0 mb-xs-40">
+                    <div class="col-md-10 offset-md-1">
+                        <Contacts/>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Contact Section -->
+
+        <section class="page-section pt-0 pb-120">
+            <div class="container relative">
+                <!-- Google Map -->
+                <div class="google-map wow fadeInUpShort animated" style="visibility: visible; animation-name: fadeInUpShort;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1591.9276828509612!2d25.825013577832333!3d66.48447537883138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x442b49364d17c071%3A0x2837c8c7efbadfbc!2zTGlubnVudGllIDI2LCA5NjQ0MCBSb3ZhbmllbWksINCk0LjQvdC70Y_QvdC00LjRjw!5e0!3m2!1sru!2sby!4v1693249290835!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <!-- End Google Map -->
+
+            </div>
+        </section>
+
+        <!-- Section -->
+        <section class="page-section light-content bg-dark bg-dark-alfa-70" data-background="images/full-width-images/section-bg-4.jpg">
+            <div class="container relative">
+
+                <div class="wow fadeInUpShort">
+                    <div class="item-carousel owl-carousel">
+                        {
+                            coreValues.map((item) =>
+                            <div class="features-item">
+                                <div class="features-icon"">
+                                    <span set:html={SVG[`${item.svg}`]} />
+                                </div>
+                                <div class="features-title">
+                                    {item.title}
+                                </div>
+                                <div class="features-descr">
+                                    {item.intro}
+                                </div>
+                            </div>)
+                        }
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Section -->
+    </main>
+</Layout>

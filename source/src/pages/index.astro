@@ -1,0 +1,177 @@
+---
+import Layout from './../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+import TeamSectionMain from "../components/TeamSectionMain.astro";
+import Contacts from "../components/Contacts.astro";
+import CoreValues from "../data/values.json";
+import SVG from "../data/svg.json";
+import Images from "../data/gallery.json"
+---
+
+<Layout title="Main page" description="descriptio">
+    <main id="main">
+
+        <Hero/>
+
+        <section class="page-section">
+            <div class="container relative">
+                <div class="mb-40 mb-sm-30">
+                    <div class="row section-text">
+
+                        <div class="col-md-12 col-lg-4 mb-md-50 mb-xs-30">
+                            <div class="lead-alt wow linesAnimIn" data-wow-offset="0" data-splitting="lines">
+                                Our mission is to make design simple and useful.
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4 mb-sm-50 mb-xs-30 wow linesAnimIn" data-wow-offset="0" data-splitting="lines">
+                            Lorem ipsum dolor sit amet conseur adipisci inerene maximus ligula sempe metuse pelente mattis. Maecenas volutpat, diam eni sagittis quam porta quam. Sed id dolor consectetur fermentum volutpat accumsan purus.
+                        </div>
+
+                        <div class="col-md-6 col-lg-4 mb-sm-50 mb-xs-30 wow linesAnimIn" data-wow-offset="0" data-splitting="lines">
+                            Etiam sit amet fringilla lacus susantebe sit ullamcorper pulvinar neque porttitor. Integere lectus. Praesent sede nisi eleifend fermum orci amet, iaculis libero. Donec vel ultricies purus. Name dictum sem ipsumebe euliquam.
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="mt-0 mb-0"/>
+
+        <section class="page-section">
+            <div class="container relative">
+                <div class="row">
+
+                    <!-- Text -->
+                    <div class="col-lg-6 wow fadeInUpShort animated" data-wow-duration="1.2s" data-wow-offset="205" style="visibility: visible; animation-duration: 1.2s; animation-name: fadeInUpShort;">
+
+                        <div class="row">
+                            <div class="col-lg-10">
+                                <h2 class="section-title mb-60 mb-sm-30">Values</h2>
+                            </div>
+                        </div>
+
+                        <!-- Features Grid -->
+                        <div class="row alt-features-grid">
+                            {
+                                CoreValues.map(
+                                    (item, key) =>
+                                        <div class="col-lg-6">
+                                            <div class="alt-features-item">
+                                                <div class="alt-features-icon">
+                                                    <span set:html={SVG[`${item.svg}`]} />
+                                                </div>
+                                                <h3 class="alt-features-title">{item.title}</h3>
+                                                <div class="alt-features-descr">
+                                                    {item.intro}
+                                                </div>
+                                            </div>
+                                        </div>
+                                )
+                            }
+                        </div>
+                        <!-- End Features Grid -->
+
+                    </div>
+                    <!-- End Text -->
+
+                    <div class="col-lg-6">
+                        <div class="call-action-2-images">
+                            <div class="call-action-2-image-2">
+                                <img src="img/values/value-2.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="134" style="visibility: visible; animation-duration: 1.2s; animation-name: scaleOutIn;">
+                            </div>
+                            <div class="call-action-2-image-1 border border-white border-5">
+                                <img src="img/values/value-1.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="255" style="visibility: visible; animation-duration: 1.2s; animation-name: scaleOutIn;">
+                            </div>
+                            <div class="call-action-2-image-3 border border-white border-5">
+                                <img src="img/values/value-3.jpg" alt="" class="wow scaleOutIn" data-wow-duration="1.2s" data-wow-offset="0" style="visibility: visible; animation-duration: 1.2s; animation-name: scaleOutIn;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="mt-0 mb-0"/>
+
+        <!-- About Section -->
+        <section class="page-section" id="about">
+            <div class="container relative">
+
+                <TeamSectionMain/>
+
+                <div class="local-scroll mt-80 align-center">
+                    <a href="team" class="btn btn-mod btn-large btn-round">See our team</a>
+                </div>
+            </div>
+        </section>
+        <!-- End About Section -->
+
+        <!-- Divider -->
+        <hr class="mt-0 mb-0"/>
+        <!-- End Divider -->
+
+
+        <!-- Portfolio Section -->
+        <section class="page-section pb-0" id="portfolio">
+            <div class="full-wrapper relative">
+
+                <div class="text-center mb-80 mb-sm-50">
+                    <h2 class="section-title">Photos</h2>
+                    <p class="section-title-descr">
+                        Look at selection of our projects
+                    </p>
+                </div>
+
+                <!-- Works Grid -->
+                <ul class="works-grid work-grid-3 work-grid-gut clearfix hover-white hide-titles mb-80" id="work-grid">
+                    {
+                        [14,20,30,25,33,32].map(
+                            (key, index) =>
+                                    <li class="work-item mix photography">
+                                        <a href={Images[`${key}`]['image']}
+                                           class="work-lightbox-link mfp-image">
+                                            <div class="work-img">
+                                                <div class="work-img-bg wow-p scalexIn"></div>
+                                                <img src={Images[`${key}`]['thumb']} alt={Images[`${key}`]['title']}
+                                                     class="wow-p fadeIn"
+                                                     data-wow-delay={`0.${index + 1}s`}/>
+                                            </div>
+                                        </a>
+                                    </li>
+                        )
+                    }
+
+                </ul>
+
+                <div class="local-scroll mb-120 align-center">
+                    <a href="gallery" class="btn btn-mod btn-large btn-round">See all photos</a>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Portfolio Section -->
+
+        <!-- Divider -->
+        <hr class="mt-0 mb-0"/>
+        <!-- End Divider -->
+
+        <section class="page-section" id="contact">
+            <div class="container relative">
+                <div class="text-center mb-80 mb-sm-50">
+                    <h2 class="section-title">Yhteystiedot</h2>
+                    <p class="section-title-descr">
+                        Älä epäröi ottaa meihin yhteyttä
+                    </p>
+                </div>
+                <div class="row mb-60 mb-xs-40">
+                    <div class="col-md-10 offset-md-1">
+                        <Contacts/>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</Layout>

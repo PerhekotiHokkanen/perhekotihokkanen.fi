@@ -1,0 +1,47 @@
+---
+import Header from "../components/Header.astro";
+import Layout from "../layouts/Layout.astro";
+import CoreValues from "../data/values.json";
+---
+
+<Layout title="Values" description="Foundation to be">
+    <main id="main">
+        <Header title="Values" subtitle="Foundation to be" />
+
+        <!-- Section -->
+        <section class="page-section">
+            <div class="container relative">
+                <div class="text-center mb-80 mb-sm-50">
+                    <h2 class="section-title">Our Values</h2>
+                    <p class="section-title-descr">
+                        Learn more about our company.
+                    </p>
+                </div>
+                <div class="row section-text wow fadeInUpShort">
+
+                    <div class="col-md-8 offset-md-2">
+
+                        <!-- Accordion -->
+                        <dl class="accordion">
+                            {
+                                CoreValues.map(
+                                    (item) =>
+                                    <dt>
+                                        <a href="javascript:;">{item.title}</a>
+                                    </dt>
+                                    <dd>
+                                        <span set:html={item.description}/>
+                                    </dd>
+                                )
+                            }
+                        </dl>
+                        <!-- End Accordion -->
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Section -->
+    </main>
+</Layout>
