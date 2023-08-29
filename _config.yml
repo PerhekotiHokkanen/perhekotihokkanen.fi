@@ -17,6 +17,7 @@ exclude:
   - Thumbs.db
   - Gemfile
   - CNAME
+  - source
 markdown: kramdown
 prose:
     media: images
