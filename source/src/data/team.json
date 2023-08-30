@@ -1,32 +1,40 @@
 [
     {
-        "name": "Mari Valui",
+        "name": "Mari",
         "photo": "img/team/team-1.jpg",
-        "position" : "Toimitusjohtaja",
+        "position" : "Perhekodin äiti,toiminnasta vastaava, toimitusjohtaja",
         "hello": "Hello & Welcome!",
         "intro": "Some greeting text",
         "delay": ".1s"
     },
     {
-        "name": "Andrei Valui",
+        "name": "Andrei",
         "photo": "img/team/team-2.jpg",
-        "position" : "Hallituksen puheenjohtaja",
+        "position" : "Perhekodin isä, hallituksen pj",
         "hello": "Hello everybody!",
         "intro": "Some greeting text",
         "delay": ".2s"
     },
     {
-        "name": "Coworker-1",
+        "name": "Jasmia",
         "photo": "img/team/team-3.jpg",
-        "position" : "Worker",
+        "position" : "Perhekodin työntekijä",
         "hello": "Nice to meet!",
         "intro": "Some greeting text",
         "delay": ".3s"
     },
     {
-        "name": "Emina",
+        "name": "Jemina",
         "photo": "img/team/team-4.jpg",
-        "position" : "Worker",
+        "position" : "Perhekodin työntekijä",
+        "hello": "Hey!",
+        "intro": "Some greeting text",
+        "delay": ".4s"
+    },
+    {
+        "name": "Olga",
+        "photo": "img/team/team-4.jpg",
+        "position" : "Henkilökohtainen kouluavustaja",
         "hello": "Hey!",
         "intro": "Some greeting text",
         "delay": ".4s"
