@@ -16,7 +16,7 @@ import Images from "../data/gallery.json";
                             (image, key) =>
                                 <div class="col-lg-3 col-sm-4 col-6">
                                     <div class="post-prev-img mb-30 wow fadeScaleIn" data-wow-duration="1s" data-wow-delay={`0.${key + 1}s`}>
-                                        <a href={image.thumb} class="lightbox mfp-image"><img src={image.image} alt={image.title} /></a>
+                                        <a href={image.image} class="lightbox mfp-image"><img src={image.thumb} alt={image.title} /></a>
                                     </div>
                                 </div>
                         )
