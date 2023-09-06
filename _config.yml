@@ -3,11 +3,7 @@ url: /
 name: Perhekoti Hokkanen oy
 menu:
 exclude:
-  - sass
-  - config.rb
-  - Procfile
   - Thumbs.db
-  - Gemfile
   - CNAME
   - source
 markdown: kramdown
