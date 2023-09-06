@@ -3,7 +3,7 @@
         "name": "Mari",
         "photo": "img/team/team-1.jpg",
         "position" : "Perhekodin äiti,toiminnasta vastaava, toimitusjohtaja",
-        "hello": "Hello & Welcome!",
+        "hello": "Hei ja tervetuloa!",
         "intro": "Some greeting text",
         "delay": ".1s"
     },
@@ -11,7 +11,7 @@
         "name": "Andrei",
         "photo": "img/team/team-2.jpg",
         "position" : "Perhekodin isä, hallituksen pj",
-        "hello": "Hello everybody!",
+        "hello": "Hei kaikki!",
         "intro": "Some greeting text",
         "delay": ".2s"
     },
@@ -19,7 +19,7 @@
         "name": "Jasmia",
         "photo": "img/team/team-3.jpg",
         "position" : "Perhekodin työntekijä",
-        "hello": "Nice to meet!",
+        "hello": "Hauska tavata!",
         "intro": "Some greeting text",
         "delay": ".3s"
     },
@@ -27,7 +27,7 @@
         "name": "Jemina",
         "photo": "img/team/team-4.jpg",
         "position" : "Perhekodin työntekijä",
-        "hello": "Hey!",
+        "hello": "Hauska tavata!",
         "intro": "Some greeting text",
         "delay": ".4s"
     },
@@ -35,7 +35,7 @@
         "name": "Olga",
         "photo": "img/team/team-5.jpg",
         "position" : "Henkilökohtainen kouluavustaja",
-        "hello": "Hey!",
+        "hello": "Hauska tavata!",
         "intro": "Some greeting text",
         "delay": ".4s"
     }

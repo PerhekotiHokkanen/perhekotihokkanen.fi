@@ -8,36 +8,36 @@ import SVG from "../data/svg.json";
 import Images from "../data/gallery.json"
 ---
 
-<Layout title="Main page" description="descriptio">
+<Layout title="Perhekoti - Pääsivu" description="Perhekoti - Pääsivu">
     <main id="main">
 
         <Hero/>
 
-        <section class="page-section">
-            <div class="container relative">
-                <div class="mb-40 mb-sm-30">
-                    <div class="row section-text">
+        <!--<section class="page-section">-->
+        <!--    <div class="container relative">-->
+        <!--        <div class="mb-40 mb-sm-30">-->
+        <!--            <div class="row section-text">-->
 
-                        <div class="col-md-12 col-lg-4 mb-md-50 mb-xs-30">
-                            <div class="lead-alt wow linesAnimIn" data-wow-offset="0" data-splitting="lines">
-                                Our mission is to make design simple and useful.
-                            </div>
-                        </div>
+        <!--                <div class="col-md-12 col-lg-4 mb-md-50 mb-xs-30">-->
+        <!--                    <div class="lead-alt wow linesAnimIn" data-wow-offset="0" data-splitting="lines">-->
+        <!--                        Our mission is to make design simple and useful.-->
+        <!--                    </div>-->
+        <!--                </div>-->
 
-                        <div class="col-md-6 col-lg-4 mb-sm-50 mb-xs-30 wow linesAnimIn" data-wow-offset="0" data-splitting="lines">
-                            Lorem ipsum dolor sit amet conseur adipisci inerene maximus ligula sempe metuse pelente mattis. Maecenas volutpat, diam eni sagittis quam porta quam. Sed id dolor consectetur fermentum volutpat accumsan purus.
-                        </div>
+        <!--                <div class="col-md-6 col-lg-4 mb-sm-50 mb-xs-30 wow linesAnimIn" data-wow-offset="0" data-splitting="lines">-->
+        <!--                    Lorem ipsum dolor sit amet conseur adipisci inerene maximus ligula sempe metuse pelente mattis. Maecenas volutpat, diam eni sagittis quam porta quam. Sed id dolor consectetur fermentum volutpat accumsan purus.-->
+        <!--                </div>-->
 
-                        <div class="col-md-6 col-lg-4 mb-sm-50 mb-xs-30 wow linesAnimIn" data-wow-offset="0" data-splitting="lines">
-                            Etiam sit amet fringilla lacus susantebe sit ullamcorper pulvinar neque porttitor. Integere lectus. Praesent sede nisi eleifend fermum orci amet, iaculis libero. Donec vel ultricies purus. Name dictum sem ipsumebe euliquam.
-                        </div>
+        <!--                <div class="col-md-6 col-lg-4 mb-sm-50 mb-xs-30 wow linesAnimIn" data-wow-offset="0" data-splitting="lines">-->
+        <!--                    Etiam sit amet fringilla lacus susantebe sit ullamcorper pulvinar neque porttitor. Integere lectus. Praesent sede nisi eleifend fermum orci amet, iaculis libero. Donec vel ultricies purus. Name dictum sem ipsumebe euliquam.-->
+        <!--                </div>-->
 
-                    </div>
-                </div>
-            </div>
-        </section>
+        <!--            </div>-->
+        <!--        </div>-->
+        <!--    </div>-->
+        <!--</section>-->
 
-        <hr class="mt-0 mb-0"/>
+        <!--<hr class="mt-0 mb-0"/>-->
 
         <section class="page-section">
             <div class="container relative">
@@ -48,7 +48,7 @@ import Images from "../data/gallery.json"
 
                         <div class="row">
                             <div class="col-lg-10">
-                                <h2 class="section-title mb-60 mb-sm-30">Values</h2>
+                                <h2 class="section-title mb-60 mb-sm-30">Arvot</h2>
                             </div>
                         </div>
 
@@ -102,7 +102,7 @@ import Images from "../data/gallery.json"
                 <TeamSectionMain/>
 
                 <div class="local-scroll mt-80 align-center">
-                    <a href="team" class="btn btn-mod btn-large btn-round">See our team</a>
+                    <a href="team" class="btn btn-mod btn-large btn-round">Katso tiimimme</a>
                 </div>
             </div>
         </section>
@@ -118,16 +118,16 @@ import Images from "../data/gallery.json"
             <div class="full-wrapper relative">
 
                 <div class="text-center mb-80 mb-sm-50">
-                    <h2 class="section-title">Photos</h2>
-                    <p class="section-title-descr">
-                        Look at selection of our projects
-                    </p>
+                    <h2 class="section-title">Kuvat</h2>
+                    <!--<p class="section-title-descr">-->
+                    <!--    Look at selection of our projects-->
+                    <!--</p>-->
                 </div>
 
                 <!-- Works Grid -->
                 <ul class="works-grid work-grid-3 work-grid-gut clearfix hover-white hide-titles mb-80" id="work-grid">
                     {
-                        [14,20,30,25,33,32].map(
+                        [7, 8, 11, 20, 22, 23].map(
                             (key, index) =>
                                     <li class="work-item mix photography">
                                         <a href={Images[`${key}`]['image']}
@@ -146,7 +146,7 @@ import Images from "../data/gallery.json"
                 </ul>
 
                 <div class="local-scroll mb-120 align-center">
-                    <a href="gallery" class="btn btn-mod btn-large btn-round">See all photos</a>
+                    <a href="gallery" class="btn btn-mod btn-large btn-round">Katso kaikki kuvat</a>
                 </div>
 
             </div>
