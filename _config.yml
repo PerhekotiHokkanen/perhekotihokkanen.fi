@@ -2,14 +2,6 @@
 url: /
 name: Perhekoti Hokkanen oy
 menu:
-- text: Etusivu
-  url: /
-- text: Kuvia
-  url: /kuvia.html
-- text: Arvot
-  url: /arvot.html
-- text: Yhteystiedot
-  url: /yhteystiedot.html
 exclude:
   - sass
   - config.rb
