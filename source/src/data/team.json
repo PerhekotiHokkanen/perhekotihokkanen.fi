@@ -4,7 +4,7 @@
         "photo": "img/team/team-1.jpg",
         "position" : "Perhekodin äiti,toiminnasta vastaava, toimitusjohtaja",
         "hello": "Hei ja tervetuloa!",
-        "intro": "Some greeting text",
+        "intro": "",
         "delay": ".1s"
     },
     {
@@ -12,31 +12,31 @@
         "photo": "img/team/team-2.jpg",
         "position" : "Perhekodin isä, hallituksen pj",
         "hello": "Hei kaikki!",
-        "intro": "Some greeting text",
+        "intro": "",
         "delay": ".2s"
-    },
-    {
-        "name": "Jasmia",
-        "photo": "img/team/team-3.jpg",
-        "position" : "Perhekodin työntekijä",
-        "hello": "Hauska tavata!",
-        "intro": "Some greeting text",
-        "delay": ".3s"
     },
     {
         "name": "Jemina",
         "photo": "img/team/team-4.jpg",
         "position" : "Perhekodin työntekijä",
         "hello": "Hauska tavata!",
-        "intro": "Some greeting text",
-        "delay": ".4s"
+        "intro": "",
+        "delay": ".3s"
     },
     {
         "name": "Olga",
         "photo": "img/team/team-5.jpg",
         "position" : "Henkilökohtainen kouluavustaja",
         "hello": "Hauska tavata!",
-        "intro": "Some greeting text",
+        "intro": "",
         "delay": ".4s"
+    },
+    {
+        "name": "Markus",
+        "photo": "img/team/no-photo.jpeg",
+        "position" : "Sairaanhoitaja",
+        "hello": "Hauska tavata!",
+        "intro": "",
+        "delay": ".5s"
     }
 ]
