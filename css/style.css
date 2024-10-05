@@ -1732,6 +1732,7 @@ html:not(.mobile) .wow-p{
 }
 .logo,
 a.logo:hover{
+    padding: 5px 0;
     font-size: 18px;
     font-weight: 600 !important;
     text-decoration: none;
