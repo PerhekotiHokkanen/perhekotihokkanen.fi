@@ -1,0 +1,45 @@
+---
+import Header from "../components/Header.astro";
+import Layout from "../layouts/Layout.astro";
+import Contacts from "../components/Contacts.astro";
+---
+
+<Layout title="Moidom - Omavalvontasuunnitelma" description="Moidom - Omavalvontasuunnitelma">
+    <main id="main">
+        <Header title="Omavalvontasuunnitelma" subtitle="" />
+
+        <!-- Section -->
+        <section class="page-section">
+            <div class="container relative">
+                <div class="text-center mb-80 mb-sm-50">
+                    <h2 class="section-title">Omavalvontasuunnitelma</h2>
+                    <p class="section-title-descr">
+                        Tulossa
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- End Section -->
+
+        <!-- Divider -->
+        <hr class="mt-0 mb-0"/>
+        <!-- End Divider -->
+
+        <section class="page-section" id="contact">
+            <div class="container relative">
+                <div class="text-center mb-80 mb-sm-50">
+                    <h2 class="section-title">Yhteystiedot</h2>
+                    <p class="section-title-descr">
+                        Älä epäröi ottaa meihin yhteyttä
+                    </p>
+                </div>
+                <div class="row mb-60 mb-xs-40">
+                    <div class="col-md-10 offset-md-1">
+                        <Contacts/>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</Layout>
